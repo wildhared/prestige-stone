@@ -82,15 +82,17 @@ section {
 
 .work {
   background-color: #e4dfda;
+  padding-top: 2rem;
 }
 
 .work img {
   display: block;
   width: 100%;
+  margin-bottom: 40px;
 }
 
-.work div div {
-  padding: 2rem 0;
+.work img:last-child {
+  margin-bottom: 0;
 }
 
 footer {
@@ -132,7 +134,7 @@ footer {
   }
 
   .work {
-    padding-top: 1em;
+    padding: 2rem 0;
   }
   .work .container {
     display: block;
@@ -140,12 +142,11 @@ footer {
   .work .container > div {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
   .work img {
-    flex-basis: 400px;
-    margin-right: 2rem;
-    width: 400px;
-    height: 300px;
+    width: 460px;
+    height: 345px;
   }
   .contact .container > div {
     flex: 1;
