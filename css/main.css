@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap");
 
 * {
   padding: 0;
@@ -24,10 +24,11 @@ h3 {
 }
 p {
   line-height: 2rem;
+  margin-bottom: 1rem;
 }
 
 body {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 400;
   font-size: 20px;
 }
@@ -40,7 +41,7 @@ section {
 }
 
 .overview {
-  background-color:#C1666B;
+  background-color: #c1666b;
 }
 
 .overview header {
@@ -70,8 +71,8 @@ section {
 }
 
 .services .features ul li:before {
-  color: #48A9A6;
-  content: '\f00c';
+  color: #48a9a6;
+  content: "\f00c";
   margin-right: 0.75rem;
   font-family: FontAwesome;
   font-style: normal;
@@ -80,7 +81,7 @@ section {
 }
 
 .work {
-  background-color: #E4DFDA;
+  background-color: #e4dfda;
 }
 
 .work img {
@@ -96,7 +97,7 @@ footer {
   padding: 2rem;
   text-align: center;
   font-size: 0.9rem;
-  background-color:#C1666B;
+  background-color: #c1666b;
   color: white;
 }
 
@@ -118,11 +119,11 @@ footer {
   .overview div {
     flex: 1;
   }
-  
+
   .services .about {
     flex: 1;
   }
-  
+
   .services .features {
     flex: 1;
   }
@@ -131,12 +132,12 @@ footer {
   }
 
   .work {
-    padding-top:1em;
+    padding-top: 1em;
   }
   .work .container {
     display: block;
   }
-  .work .container>div {
+  .work .container > div {
     display: flex;
     justify-content: space-between;
   }
@@ -146,7 +147,7 @@ footer {
     width: 400px;
     height: 300px;
   }
-  .contact .container>div {
+  .contact .container > div {
     flex: 1;
   }
 }
