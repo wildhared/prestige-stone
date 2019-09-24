@@ -103,7 +103,7 @@ footer {
   color: white;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 960px) {
   .container {
     width: 960px;
     margin: 0 auto;
